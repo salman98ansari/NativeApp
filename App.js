@@ -13,10 +13,7 @@ import AddItem from './components/AddItem';
 
 const App = () =>{
   const [items , setItems]= useState([
-    {id: uuid(), text:'Milk'},
-    {id: uuid(), text:'eggs'},
-    {id: uuid(), text:'Bread'},
-    {id: uuid(), text:'Juice'},
+    {id: uuid(), text:'Test'},
   ]);
 
   
